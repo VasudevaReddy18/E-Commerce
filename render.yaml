@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: ecommerce-server
+    env: node
+    rootDir: server
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: MONGODB_URI
+        sync: false
+      - key: JWT_SECRET
+        sync: false
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 5000
+
+  - type: static
+    name: ecommerce-client
+    rootDir: client
+    buildCommand: npm install && npm run build
+    staticPublishPath: build 
