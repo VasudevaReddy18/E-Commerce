@@ -4,7 +4,7 @@
   "description": "Full-stack e-commerce application with React frontend and Node.js backend",
   "main": "index.js",
   "scripts": {
-    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "start": "echo 'Use the server or client start scripts directly.'",
     "server": "cd server && npm start",
     "client": "cd client && npm start",
     "build": "cd client && npm run build",
