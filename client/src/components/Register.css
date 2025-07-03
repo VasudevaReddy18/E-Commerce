@@ -1,0 +1,38 @@
+.register-page {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+}
+
+.register-card {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 2.5rem 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.08);
+  background: white;
+}
+
+.register-card h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.link {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .register-card {
+    padding: 1.5rem 1rem;
+  }
+} 
