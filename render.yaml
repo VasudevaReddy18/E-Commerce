@@ -1,4 +1,4 @@
-services:
+hservices:
   - type: web
     name: ecommerce-server
     env: node
