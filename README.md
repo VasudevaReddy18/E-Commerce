@@ -104,32 +104,6 @@ A full-stack e-commerce application built with React, Node.js, and Express. This
 - **Email**: `demo@example.com`
 - **Password**: `password`
 
-## 📁 Project Structure
-
-```
-e-commerce-app/
-├── client/                 # React frontend
-│   ├── public/
-│   ├── src/
-│   │   ├── components/     # React components
-│   │   │   ├── Admin.js    # Admin dashboard
-│   │   │   ├── Cart.js     # Shopping cart
-│   │   │   ├── Checkout.js # Checkout process
-│   │   │   ├── Footer.js   # Site footer
-│   │   │   ├── Home.js     # Homepage
-│   │   │   ├── Login.js    # Login form
-│   │   │   ├── Navbar.js   # Navigation
-│   │   │   ├── Products.js # Product catalog
-│   │   │   ├── ProductDetail.js # Product details
-│   │   │   └── Register.js # Registration form
-│   │   ├── App.js          # Main app component
-│   │   └── index.js        # App entry point
-│   └── package.json
-├── server/                 # Node.js backend
-│   ├── server.js           # Express server
-│   └── package.json
-└── README.md
-```
 
 ## 🔧 Configuration
 
@@ -189,9 +163,6 @@ JWT_SECRET=your-secret-key-here
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 🆘 Support
 
