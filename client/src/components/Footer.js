@@ -17,10 +17,10 @@ const Footer = () => {
           <a href="/login" className="footer-link">Login</a>
         </div>
         <div className="footer-social">
-          <a href="#" className="footer-social-icon"><FaFacebook /></a>
-          <a href="#" className="footer-social-icon"><FaTwitter /></a>
-          <a href="#" className="footer-social-icon"><FaInstagram /></a>
-          <a href="#" className="footer-social-icon"><FaLinkedin /></a>
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="footer-social-icon"><FaFacebook /></a>
+          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="footer-social-icon"><FaTwitter /></a>
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="footer-social-icon"><FaInstagram /></a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="footer-social-icon"><FaLinkedin /></a>
         </div>
       </div>
     </footer>
