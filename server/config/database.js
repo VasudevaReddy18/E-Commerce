@@ -29,6 +29,8 @@ const connectDB = async () => {
       process.exit(0);
     });
 
+    return true;
+
   } catch (error) {
     console.error('❌ Error connecting to MongoDB:', error.message);
     console.log('💡 To use MongoDB:');
